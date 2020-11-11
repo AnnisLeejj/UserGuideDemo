@@ -1,2 +1,3 @@
 rootProject.name = "UserGuideDemo"
 include ':app'
+include ':libUserGuide'
