@@ -65,7 +65,7 @@ public class GuidePageBuilder {
      * @return
      */
     public GuidePageBuilder setRemoveView(@IdRes int removeId) {
-        this.mRemoveId = mRemoveId;
+        this.mRemoveId = removeId;
         return this;
     }
 

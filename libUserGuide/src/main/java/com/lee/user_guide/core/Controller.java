@@ -71,6 +71,7 @@ public class Controller {
     int current = 0;
 
     public void show() {
+        current = 0;
         mDecorView.post(() -> {
             showGuidePage();
             if (mGuideBuilder.guideChangeListener != null) {
